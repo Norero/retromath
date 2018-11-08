@@ -217,7 +217,7 @@ img{
 
 
 .download-btn{
-	border-radius: 3px;
+	border-radius: 4px;
 	color: #ffffff;
 	display: block;
 	float: left;
@@ -1400,8 +1400,8 @@ img{
 	  margin: 10px 0 0;
 	}
 	.download-btn {  
-	  margin-top: 20px; 
-	  width: 160px;
+	  margin-top: 30px; 
+	  width: 180px;
 	}
 	.header-bottom-right img {
 	  width: 45%;
@@ -1416,7 +1416,7 @@ img{
 	.howit-works-video iframe {
 	  display: inline-block;	 
 	  margin-left: auto;
-	  width: 90%;
+	  width: 100%;
 	}
 	.slick-prev {
 	  left: 6px;
@@ -1535,8 +1535,8 @@ img{
 	  font-size: 14px;
 	}
 	.download-btn {
-	  font-size: 15px;
-	  width: 150px;
+	  font-size: 25px;
+	  width: 180px;
 	}
 	.header-bottom-right {
 	  margin-top: 60px;
