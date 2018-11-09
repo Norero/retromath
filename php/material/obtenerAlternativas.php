@@ -19,7 +19,7 @@ if ($id_pregunta == null) {
     return;
 }
 
-//  http://localhost/retroMath/material/obteneralternativas.php?id_sesion=19492167&id_pregunta=1
+//  http://46.101.232.235/php/material/obteneralternativas.php?id_sesion=19492167&id_pregunta=1
 $result = $connection->query("SELECT id_alternativa, id_pregunta, dato, correcta FROM alternativas AS a
     WHERE a.id_pregunta = '" . $id_pregunta . "'");
 
