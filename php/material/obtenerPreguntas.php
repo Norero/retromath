@@ -22,7 +22,7 @@ if ($id_tema == null) {
     return;
 }
 
-//  http://46.101.232.235/php/material/obtenerPreguntas.php?id_sesion=3&id_tema=1
+//  http://46.101.232.235/php/material/obtenerPreguntas.php?id_sesion=5&id_tema=1
 
 $result = $connection->query("SELECT id_pregunta, contenido, monedas_dar, puntos_dar FROM preguntas
 	WHERE id_tema = '" . $id_tema . "'

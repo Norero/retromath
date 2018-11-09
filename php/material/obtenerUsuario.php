@@ -13,7 +13,7 @@ if ($id_sesion == null) {
 
 $outp = null;
 
-//  http://46.101.232.235/php/material/obtenerUsuario.php?id_sesion=3
+//  http://46.101.232.235/php/material/obtenerUsuario.php?id_sesion=5
 $result = $connection->query("SELECT DISTINCT usuarios.id_run, retroMath, id_colegio, nombre, nick, rut, monedas, puntos FROM usuarios
 INNER JOIN sesiones ON usuarios.id_run = (SELECT id_run FROM sesiones WHERE id_sesion = '" . $id_sesion . "')");
 
