@@ -1,7 +1,6 @@
 <?php
 
 header("Access-Control-Allow-Origin: *");
-header("Content-Type: application/json; charset=UTF-8");
 
 require "includes/db.php";
 require "includes/check_login.php";
