@@ -28,6 +28,6 @@
 		$id_sesion = $connection->query('SELECT Agregar_Sesion(' . $filaUsuario[0] . ')');
 		$id_sesion = $id_sesion->fetch_row()[0];
 
-		echo ("[".$id_sesion .",".$retroMath."]");
+		echo ($id_sesion .":".$retroMath);
 	}
 

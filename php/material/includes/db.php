@@ -1,7 +1,9 @@
 <?php
-//http://46.101.232.235
+//sftp://46.101.232.235
 //root
 //retromath2018
+//22
+
 $servername = "localhost:3306";
 $username = "admin";
 $password = "25740c1ab758bf6d9db8b5b1fdabf429b5fb6752c9fdcde8";
